@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    outline: transparent;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1c1629;
+    color: rgb(228, 228, 228);
+}
+h1{
+    font-size: 2.5rem;
+}
+.main-card{
+    margin-top: 40px;
+    box-shadow: 0 2px 10px #10101be8;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+.main-card .description {
+    margin-top: 15px;
+}
+.main-card .btn-start {
+    border: none;
+    padding: 8px 32px;
+    border-radius: 4px;
+    background: blue;
+    color: #fff;
+    margin: 30px 0 10px 0;
+    cursor: pointer;
+}
+.loading{
+    width: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: rgb(202, 202, 202);
+}
+.card {
+    padding: 20px;
+}
+.card .number{
+    margin-bottom: 20px;
+}
+.card .question {
+    font-size: 1.3em;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+.card .btn-option {
+    width: 300px;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1.4px solid rgb(68, 0, 255);
+    cursor: pointer;
+    background: transparent;
+    transition: border .3s ease-in-out;
+}
+.card .btn-option.disabled{
+    filter: grayscale(.5);
+    border: 1.4px solid rgb(58, 16, 172);
+}
+.card .btn-option:hover{
+    transition: border .2s ease-in-out;
+    border: 1.4px solid rgb(39, 10, 117);
+}
+.btn-next {
+    margin-bottom: 10px;
+    padding: 6px 32px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+    background: rgb(71, 31, 252);
+    color: #fff;
+    font-weight: 400;
+}
+.btn-next:hover{
+    transition: background .2s ease-in-out;
+    background: rgb(46, 16, 182);
+}
